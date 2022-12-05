@@ -6,3 +6,5 @@ sanity start
 
 2h14m 30s
 https://www.youtube.com/watch?v=4mOkFXyxfsU&t=1484s
+
+https://stripe.com/docs/payments/checkout
