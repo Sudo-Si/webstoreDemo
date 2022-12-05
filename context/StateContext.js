@@ -10,7 +10,9 @@ export const StateContext = ({ children }) => {
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
 
+  // product to update
   let foundProduct;
+  // index of the prop to update
   let index;
 
   const onAdd = (product, quantity) => {
@@ -39,16 +41,23 @@ export const StateContext = ({ children }) => {
 
   const onRemove = (product) => {
     foundProduct = cartItems.find((item) => item._id === product._id);
-    const newCartItems = cartItems.filter((item) => item._id !== product._id);
+    const newCartItems = cartItems.filter((item) => item._id 
+    !== product._id);
 
-    setTotalPrice((prevTotalPrice) => prevTotalPrice -foundProduct.price * foundProduct.quantity);
-    setTotalQuantities(prevTotalQuantities => prevTotalQuantities - foundProduct.quantity);
+    setTotalPrice((prevTotalPrice) => prevTotalPrice
+     -foundProduct.price * foundProduct.quantity);
+    setTotalQuantities(prevTotalQuantities => 
+    prevTotalQuantities - foundProduct.quantity);
     setCartItems(newCartItems);
   }
-
+    
+  // accepts id and value of product we are weorking with  
   const toggleCartItemQuanitity = (id, value) => {
+  // finding item where the id is item id and item we are parseing through props
     foundProduct = cartItems.find((item) => item._id === id)
-    index = cartItems.findIndex((product) => product._id === id);
+  //  update found product
+  index = cartItems.findIndex((product) => product._id === id);
+
     const newCartItems = cartItems.filter((item) => item._id !== id)
 
     if(value === 'inc') {
@@ -88,8 +97,8 @@ export const StateContext = ({ children }) => {
         incQty,
         decQty,
         onAdd,
-        // toggleCartItemQuanitity,
-        // onRemove,
+        toggleCartItemQuanitity,
+        onRemove,
         // setCartItems,
         // setTotalPrice,
         // setTotalQuantities 
