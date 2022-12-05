@@ -170,6 +170,7 @@ width: 100%;
   right:20%;
   width: 450px;
   height: 450px;
+  object-fit: cover;
 }
 
 
@@ -246,10 +247,13 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  /* top: -35%; */
+  left: 8%;
+  top: 55%;
+  left: 75%;
+  width: 200px;
+  object-fit: cover;
+  z-index: 1;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -623,20 +627,20 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 37%;
+    height: 32%;
+    top: 33%;
+    right: 5%;
   }
   .footer-banner-container{
     height: 560px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .footer-banner-image{
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%
+    width: 60%;
+    left: 40%;
+    top: -5%;
+    height: 50%
   }
   .banner-desc .left h3{
     font-weight: 900;
