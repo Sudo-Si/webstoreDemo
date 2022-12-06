@@ -1,12 +1,14 @@
-sanity docs 
+Hello World, 
 
-sanity manage
-
-sanity start
+Thanks for stopping by, here is a project that I am currently working on.
 
 
 
-https://stripe.com/docs/payments/checkout![Footer Banner](https://user-images.githubusercontent.com/56238070/205802885-d633502c-8bfb-4c9c-87df-6ce8883e65bb.PNG)
+I do 3d printing in my spare time and wanted to have a place to showoff and sell the cool 3d prints i have found or made.
+and as awesome as some platforms are... i am a developer , so why not create a store from scratch, leverageing JAM stack?
+so I did.
+I will make another version at some point as this one won't let me deploy yet 
+
 
 App is working !!! here are some images of the pages and components 
 ![Hero Banner](https://user-images.githubusercontent.com/56238070/205802897-b18fa5c9-4947-4314-a21b-6723c556b7ff.PNG)
