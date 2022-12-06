@@ -4,8 +4,7 @@ sanity manage
 
 sanity start
 
-2h14m 30s
-https://www.youtube.com/watch?v=4mOkFXyxfsU&t=1484s
+
 
 https://stripe.com/docs/payments/checkout![Footer Banner](https://user-images.githubusercontent.com/56238070/205802885-d633502c-8bfb-4c9c-87df-6ce8883e65bb.PNG)
 
